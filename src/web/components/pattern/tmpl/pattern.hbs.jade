@@ -1,0 +1,22 @@
+.two.fields
+  .field
+    label Command name
+    input(type="text" placeholder="deploy" value="{{name}}")
+  .field
+    label Active
+    input(type="checkbox" checked="{{active}}")
+.field
+  label Light pattern (1s/16)
+  | {{#each patterns}}
+  .ui.sixteen.top.attached.buttons
+    | {{#each states}}
+    |   {{#if this}}
+    .ui.button.active(class="{{name}}" on-click="changeState")
+    |   {{else}}
+    .ui.button(on-click="changeState")
+    |   {{/if}}
+    | {{/each}}
+  | {{/each}}
+
+.field
+  .ui.mini.right.floated.button(on-click="delete:{{name}}") delete {{name}}

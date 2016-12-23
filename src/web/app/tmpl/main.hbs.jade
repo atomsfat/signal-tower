@@ -1,0 +1,10 @@
+.ui.container
+  h1.ui.center.aligned.header Signal tower
+
+  .ui.form
+    | {{#each commands}}
+    pattern
+    | {{/each}}
+
+    .ui.button(on-click="newCmd") New
+    .ui.button(on-click="saveAll") Save to disk

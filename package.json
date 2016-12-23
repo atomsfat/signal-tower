@@ -1,0 +1,57 @@
+{
+  "name": "signal-tower",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atomsfat/signal-tower.git"
+  },
+  "keywords": [
+    "raspberry"
+  ],
+  "author": "Tomas Salazar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atomsfat/signal-tower/issues"
+  },
+  "homepage": "https://github.com/atomsfat/signal-tower#readme",
+  "devDependencies": {
+    "airbnb-style": "^2.0.0",
+    "better-console": "^0.2.4",
+    "chance": "^1.0.3",
+    "css-loader": "^0.23.1",
+    "eslint": "^2.11.1",
+    "eslint-config-airbnb": "^9.0.1",
+    "eslint-plugin-import": "^1.8.1",
+    "eslint-plugin-jsx-a11y": "^1.2.3",
+    "eslint-plugin-react": "^5.1.1",
+    "file-loader": "^0.8.5",
+    "gulp": "^3.9.1",
+    "gulp-batch": "^1.0.5",
+    "gulp-jade": "^1.1.0",
+    "gulp-nodemon": "^2.0.7",
+    "gulp-util": "^3.0.7",
+    "gulp-watch": "^4.3.5",
+    "jade-html-loader": "0.0.3",
+    "postcss-loader": "^0.9.1",
+    "ractive-loader": "^0.5.6",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.0",
+    "webpack-dev-server": "^1.14.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "morgan": "^1.7.0",
+    "onoff": "^1.0.4",
+    "ractive": "^0.7.3",
+    "semantic-ui-css": "2.1.8",
+    "xhttp": "0.0.14"
+  }
+}
